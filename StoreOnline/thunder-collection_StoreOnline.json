@@ -1,0 +1,409 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "StoreOnline",
+    "dateExported": "2024-02-23T06:09:54.995Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "29a62c52-1682-4240-a920-87169423eace",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-02-20T05:41:48.536Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "74d2a4fd-a71f-44b4-bb8b-efdd939a7b0c",
+            "name": "Category",
+            "containerId": "",
+            "created": "2024-02-21T15:36:56.408Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "acffcf12-2779-41a0-9499-f000af9d5a38",
+            "name": "Products",
+            "containerId": "",
+            "created": "2024-02-21T16:01:03.301Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "c0b73ac4-dc43-4031-a0f3-30812cc62e41",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "29a62c52-1682-4240-a920-87169423eace",
+            "name": "Register",
+            "url": "/user/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-20T05:41:59.460Z",
+            "modified": "2024-02-23T04:19:58.537Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Maximialino"
+                    },
+                    {
+                        "name": "lastName",
+                        "value": "Lopez"
+                    },
+                    {
+                        "name": "username",
+                        "value": "mlopez"
+                    },
+                    {
+                        "name": "mail",
+                        "value": "mlopez-2022217@kinal.edu.gt "
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d9ddc3f5-1a2f-44e4-b8ca-86ee0b7039f7",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "29a62c52-1682-4240-a920-87169423eace",
+            "name": "Login",
+            "url": "/user/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-20T16:09:34.444Z",
+            "modified": "2024-02-23T05:30:38.890Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "llopez"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d285914c-3565-4c22-b76c-8e14a206102d",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "29a62c52-1682-4240-a920-87169423eace",
+            "name": "Update",
+            "url": "/user/update/65d4cbbd760f29b393538042",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-02-21T03:25:21.328Z",
+            "modified": "2024-02-23T04:20:08.918Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Jasmin"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "328d7439-6d7d-47ef-8464-c1af8fdcf17a",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "29a62c52-1682-4240-a920-87169423eace",
+            "name": "Delete",
+            "url": "/user/delete/65d57282601f7ceb960dce90",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-02-21T03:51:54.674Z",
+            "modified": "2024-02-23T04:20:13.591Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7e2135b5-b380-487c-974d-dd20a27f2f6e",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "29a62c52-1682-4240-a920-87169423eace",
+            "name": "ListUsers",
+            "url": "/user/listUsers",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-02-21T04:00:55.944Z",
+            "modified": "2024-02-23T04:20:17.886Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ae368bf9-4726-4b66-ac1c-755610f2f6f8",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "29a62c52-1682-4240-a920-87169423eace",
+            "name": "Search",
+            "url": "/user/search",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-21T04:32:08.457Z",
+            "modified": "2024-02-23T04:20:21.906Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": "llopez"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c23f6e1e-cb9f-4851-a847-d44ab6adb1f9",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "74d2a4fd-a71f-44b4-bb8b-efdd939a7b0c",
+            "name": "Add Category",
+            "url": "/category/addCategory",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-02-21T15:37:08.832Z",
+            "modified": "2024-02-23T05:59:16.248Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ1NzI0MDYwMWY3Y2ViOTYwZGNlOGUiLCJ1c2VybmFtZSI6Imxsb3BleiIsIm5hbWUiOiJMZXN0ZXIiLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA4NjY2MjM4LCJleHAiOjE3MDg2OTUwMzh9.VAMeaUeb0seMV8udjPre9U-x9YAPK7riuLhKyDcwhm4"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Mascotas"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Juguetes, Comida, etc"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "db08bde7-1813-43eb-a189-38f45ff7454f",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "acffcf12-2779-41a0-9499-f000af9d5a38",
+            "name": "Add Product",
+            "url": "/product/addProduct",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-02-21T16:01:12.933Z",
+            "modified": "2024-02-23T04:28:38.396Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Comedor completodasdas"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Producto de alta calidad"
+                    },
+                    {
+                        "name": "price",
+                        "value": "6000"
+                    },
+                    {
+                        "name": "stock",
+                        "value": "12"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65d7632067fc3a86383339fb2"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "29a4b910-79ab-44d9-a0e9-662fd60ffc14",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "74d2a4fd-a71f-44b4-bb8b-efdd939a7b0c",
+            "name": "Update Category",
+            "url": "/category/updateCategory/65d61d1b2f745858661faa25",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2024-02-22T06:08:39.362Z",
+            "modified": "2024-02-23T04:20:34.409Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Comedor"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Los mejores muebles para el area del comedor"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "201c6d43-3223-41e8-95d3-e281fdbeb903",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "74d2a4fd-a71f-44b4-bb8b-efdd939a7b0c",
+            "name": "Delete Category",
+            "url": "/category/deleteCategory/65d6e76f61932ffa4a42bb51",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2024-02-22T06:17:45.324Z",
+            "modified": "2024-02-23T04:20:40.337Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5d670555-4ab2-4ee6-9717-7ef913e63936",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "74d2a4fd-a71f-44b4-bb8b-efdd939a7b0c",
+            "name": "Search Category",
+            "url": "/category/searchCategory",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2024-02-22T06:27:00.669Z",
+            "modified": "2024-02-23T04:20:44.750Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": "Comedor"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "648b964d-3371-4b6d-aac3-48605811417e",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "74d2a4fd-a71f-44b4-bb8b-efdd939a7b0c",
+            "name": "List Categories",
+            "url": "/category/listCategories",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2024-02-22T06:30:56.695Z",
+            "modified": "2024-02-23T04:20:49.853Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f0efad01-b396-4729-9c31-6821b1d3c2d9",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "acffcf12-2779-41a0-9499-f000af9d5a38",
+            "name": "List Products",
+            "url": "/product/listProducts",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2024-02-22T06:44:25.429Z",
+            "modified": "2024-02-23T04:20:58.510Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d9fabe50-0c6b-43d8-8975-d64fbb8e6e60",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "acffcf12-2779-41a0-9499-f000af9d5a38",
+            "name": "Search product",
+            "url": "/product/searchProduct",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2024-02-22T06:54:58.914Z",
+            "modified": "2024-02-23T04:31:26.906Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": "Lavamanos"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "28f1017f-b3fa-4993-a669-e5beef974db5",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "acffcf12-2779-41a0-9499-f000af9d5a38",
+            "name": "Update Product",
+            "url": "/product/updateProduct/65d7637567fc3a8638333a00",
+            "method": "PUT",
+            "sortNum": 170000,
+            "created": "2024-02-23T04:18:53.911Z",
+            "modified": "2024-02-23T04:27:27.998Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "category",
+                        "value": "65d7633867fc3a86383339fd2"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "2d264aa7-68de-4c7e-87de-57e5ecdcd51c",
+            "colId": "e3b1515f-a510-4d3b-8235-461c5fa104c6",
+            "containerId": "acffcf12-2779-41a0-9499-f000af9d5a38",
+            "name": "Delete Product",
+            "url": "/product/deleteProduct/65d76c44878cfbfa0036fd88",
+            "method": "DELETE",
+            "sortNum": 180000,
+            "created": "2024-02-23T04:42:54.815Z",
+            "modified": "2024-02-23T04:47:43.534Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2880"
+        }
+    }
+}
